@@ -1,0 +1,9 @@
+@echo off
+echo Starte Ollama-Server fuer Modell 'mistral' im Hintergrund...
+start /B ollama run mistral
+
+echo Warte 30 Sekunden, damit das KI-Modell Zeit zum Laden hat...
+timeout /t 30 /nobreak
+
+echo Starte EduShiva-Agenten aus dem Hauptverzeichnis...
+python -m app.main

@@ -1,0 +1,18 @@
+# Datenbank-Dateien ignorieren
+# Diese enthalten persönliche Nutzerdaten und gehören nicht in den Code.
+*.db
+*.db-journal
+
+# Gradio Cache-Ordner ignorieren
+# Dieser wird automatisch generiert und enthält temporäre Dateien.
+.gradio/
+
+# Python Cache-Ordner ignorieren
+# Diese werden automatisch von Python erstellt und sind nicht notwendig.
+__pycache__/
+*.pyc
+
+# IDE- und Betriebssystem-spezifische Dateien ignorieren
+.idea/
+.vscode/
+.DS_Store

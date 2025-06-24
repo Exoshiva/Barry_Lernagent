@@ -1,0 +1,105 @@
+/* === GLOBALE EINSTELLUNGEN & HINTERGRUND === */
+body, .gradio-container {
+    font-family: 'Inter', sans-serif;
+    background-color: #121212; /* Dunkles, neutrales Grau */
+    color: #e0e0e0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* === HAUPT-LAYOUT-BLÖCKE === */
+#app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    padding: 0 !important;
+    gap: 0 !important;
+}
+
+/* --- HEADER-BLOCK --- */
+#header-container {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0; /* Verhindert Schrumpfen */
+}
+#header-title { color: white; font-size: 1.25rem; font-weight: 600; margin: 0; }
+#header-avatar img { border-radius: 50%; }
+
+/* --- CHAT-FENSTER-BLOCK --- */
+#chatbot {
+    flex-grow: 1; /* Nimmt allen verfügbaren Platz ein */
+    overflow-y: auto !important; /* Nur dieser Bereich scrollt */
+    padding: 1.5rem;
+}
+.chatbot {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.message-bubble.bot {
+    background-color: #2e2e2e !important;
+    border: 1px solid #444;
+}
+.message-bubble.user {
+    background-color: #3b82f6 !important;
+}
+
+/* --- EINGABE-BLOCK --- */
+#input-area {
+    background-color: #1e1e1e;
+    border-top: 1px solid #333;
+    padding: 1rem;
+    flex-shrink: 0; /* Verhindert Schrumpfen */
+    display: flex;
+    align-items: stretch; /* Alle Elemente auf gleicher Höhe */
+    gap: 1rem;
+}
+
+/* BEREICH FÜR DATEI-UPLOAD */
+#image-upload-box {
+    border: 2px dashed #444 !important;
+    border-radius: 0.75rem !important;
+    background-color: #2a2a2a !important;
+    min-width: 120px !important;
+    padding: 4px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s ease;
+}
+#image-upload-box:hover {
+    border-color: #3b82f6 !important;
+}
+#image-upload-box img {
+    object-fit: contain !important;
+}
+/* Passt die Höhe an und entfernt den "Bild"-Label-Text */
+#image-upload-box .w-full.h-full {
+    min-height: 80px;
+}
+#image-upload-box .sr-only {
+    display: none;
+}
+
+
+/* TEXTBOX UND SENDEN-BUTTON */
+#input-textbox textarea {
+    background-color: #2a2a2a !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+    border-radius: 0.75rem !important;
+    height: 100%;
+    box-sizing: border-box; /* Stellt sicher, dass Padding die Höhe nicht beeinflusst */
+}
+#submit-button {
+    align-self: stretch; /* Dehnt den Button auf volle Höhe der Zeile */
+    min-height: 80px;
+    background: #3b82f6 !important;
+    color: white !important;
+    border-radius: 0.75rem !important;
+}
