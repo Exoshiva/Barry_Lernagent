@@ -3,7 +3,7 @@
 Ein Satz, der Barry prägnant beschreibt. Zum Beispiel: 
 **Barry ist ein KI-Agent in Python, der lernt, SQL-Abfragen basierend auf natürlicher Sprache zu erstellen und auszuführen.**
 
-## ✨ Features
+## Features
 
 * **Feature 1:** Interagiert mit einer SQL-Datenbank, um...
 * **Feature 2:** Nutzt eine LLM-API (z.B. von OpenAI, Google), um...
@@ -36,6 +36,6 @@ Folge diesen Schritten, um Barry auf deinem System zum Laufen zu bringen.
     * Für Windows: `run.bat`
     * Für Linux/Mac: `bash run.sh`
 
-## 👨‍💻 Benutzung
+## Benutzung
 
 Nach dem Start, öffne deinen Browser und gehe zu `http://127.0.0.1:5000`. Dort kannst du Barry eine Frage in natürlicher Sprache stellen.
