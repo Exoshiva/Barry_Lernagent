@@ -5,9 +5,11 @@ Ein Satz, der Barry prägnant beschreibt. Zum Beispiel:
 
 ## Features
 
-* **Feature 1:** Interagiert mit einer SQL-Datenbank, um...
-* **Feature 2:** Nutzt eine LLM-API (z.B. von OpenAI, Google), um...
-* **Feature 3:** Hat ein einfaches Web-Interface (gebaut mit Flask/Django?), um...
+Feature 1: Interagiert mit einer SQL-Datenbank, um dynamisch Daten basierend auf komplexen Anfragen abzurufen und aufzubereiten.
+
+Feature 2: Nutzt lokal laufende Sprachmodelle via Ollama, um Anfragen in natürlicher Sprache in präzise, ausführbare SQL-Abfragen zu übersetzen.
+
+Feature 3: Bietet ein schnelles Prototyping-Interface mit Gradio, um eine interaktive Konversation mit dem Agenten zu ermöglichen und die Datenbankergebnisse darzustellen.
 
 ## Getting Started
 
@@ -16,7 +18,8 @@ Folge diesen Schritten, um Barry auf deinem System zum Laufen zu bringen.
 ### Voraussetzungen
 
 * Python 3.9+
-* Ein API-Key für [Name des LLM-Anbieters], den du in der `config/config.yaml` eintragen musst.
+* **Ollama muss lokal installiert und gestartet sein.** (Anleitung unter [ollama.com](https://ollama.com/))
+* Ein heruntergeladenes Ollama-Modell, das für die Anwendung genutzt wird (z.B. `ollama pull mistral`).
 
 ### Installation & Start
 
