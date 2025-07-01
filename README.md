@@ -9,7 +9,7 @@ Ein Satz, der Barry prägnant beschreibt. Zum Beispiel:
 * **Feature 2:** Nutzt eine LLM-API (z.B. von OpenAI, Google), um...
 * **Feature 3:** Hat ein einfaches Web-Interface (gebaut mit Flask/Django?), um...
 
-## 🚀 Getting Started
+## Getting Started
 
 Folge diesen Schritten, um Barry auf deinem System zum Laufen zu bringen.
 
