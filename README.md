@@ -1,81 +1,41 @@
-Sure, I can help you create a **README** for your AI agent, Barry, based on the legal text you've provided.
+# Barry: Der KI-Lernagent
 
----
+Ein Satz, der Barry prägnant beschreibt. Zum Beispiel: 
+**Barry ist ein KI-Agent in Python, der lernt, SQL-Abfragen basierend auf natürlicher Sprache zu erstellen und auszuführen.**
 
-# Barry: AI Agent
+## ✨ Features
 
----
+* **Feature 1:** Interagiert mit einer SQL-Datenbank, um...
+* **Feature 2:** Nutzt eine LLM-API (z.B. von OpenAI, Google), um...
+* **Feature 3:** Hat ein einfaches Web-Interface (gebaut mit Flask/Django?), um...
 
-## English Version
+## 🚀 Getting Started
 
-Welcome to Barry, an AI agent developed by EXØSHIVA.
+Folge diesen Schritten, um Barry auf deinem System zum Laufen zu bringen.
 
----
+### Voraussetzungen
 
-### Copyright and Licensing
+* Python 3.9+
+* Ein API-Key für [Name des LLM-Anbieters], den du in der `config/config.yaml` eintragen musst.
 
-Copyright (c) 2025 EXØSHIVA. All Rights Reserved.
+### Installation & Start
 
----
+1.  **Klone das Repository:**
+    ```bash
+    git clone [https://github.com/Exoshiva/Barry_Lernagent.git](https://github.com/Exoshiva/Barry_Lernagent.git)
+    ```
+2.  **Gehe in das Projektverzeichnis:**
+    ```bash
+    cd Barry_Lernagent
+    ```
+3.  **Installiere die Abhängigkeiten:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Starte den Agenten:**
+    * Für Windows: `run.bat`
+    * Für Linux/Mac: `bash run.sh`
 
-### Usage Permissions
+## 👨‍💻 Benutzung
 
-You are granted permission to **view the source code** of this software solely for **educational and informational purposes**.
-
----
-
-### Restrictions
-
-Without the express written permission of the copyright holder, you **may not**:
-
-* Reproduce, copy, distribute, or sublicense this software.
-* Modify, adapt, translate, or create derivative works based on this software.
-* Use this software for any commercial purpose.
-* Decompile, reverse engineer, disassemble, or otherwise attempt to derive the source code for this software.
-* Rent, lease, or lend this software.
-
----
-
-### Disclaimer of Warranty
-
-This software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
-
----
-
-## Deutsche Version
-
-Willkommen bei Barry, einem KI-Agenten, entwickelt von EXØSHIVA.
-
----
-
-### Urheberrecht und Lizenzierung
-
-Copyright (c) 2025 EXØSHIVA. Alle Rechte vorbehalten.
-
----
-
-### Nutzungsrechte
-
-Ihnen wird die Erlaubnis erteilt, den **Quellcode dieser Software** ausschließlich zu **Bildungs- und Informationszwecken** einzusehen.
-
----
-
-### Einschränkungen
-
-Ohne die ausdrückliche schriftliche Genehmigung des Urheberrechtsinhabers ist es Ihnen **nicht gestattet**:
-
-* Diese Software zu vervielfältigen, zu kopieren, zu verbreiten oder unterzulizenzieren.
-* Diese Software zu modifizieren, anzupassen, zu übersetzen oder abgeleitete Werke davon zu erstellen.
-* Diese Software für kommerzielle Zwecke zu nutzen.
-* Diese Software zu dekompilieren, zurückzuentwickeln (Reverse Engineering), zu disassemblieren oder auf andere Weise zu versuchen, den Quellcode dieser Software abzuleiten.
-* Diese Software zu vermieten, zu verleasen oder zu verleihen.
-
----
-
-### Haftungsausschluss
-
-Diese Software wird "wie besehen" zur Verfügung gestellt, ohne jegliche Gewährleistung, weder ausdrücklich noch stillschweigend, einschließlich, aber nicht beschränkt auf die Gewährleistung der Marktgängigkeit, der Eignung für einen bestimmten Zweck und der Nichtverletzung von Rechten Dritter. In keinem Fall haften die Autoren oder Urheberrechtsinhaber für jegliche Ansprüche, Schäden oder andere Verbindlichkeiten, sei es aus einer Vertragshandlung, einer unerlaubten Handlung oder anderweitig, die sich aus oder in Verbindung mit der Software oder der Nutzung oder sonstigen Umgang mit der Software ergeben.
-
----
-
-This README clearly outlines the legal terms you've provided in both English and German, making it easy for users to understand the permissions and restrictions regarding Barry. Let me know if you'd like any adjustments!
+Nach dem Start, öffne deinen Browser und gehe zu `http://127.0.0.1:5000`. Dort kannst du Barry eine Frage in natürlicher Sprache stellen.
