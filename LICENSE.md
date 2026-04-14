@@ -1,7 +1,7 @@
 English Version
 ================
 
-Copyright (c) 2025 EXØSHIVA
+Copyright (c) 2025 Lars Patzenbein | EXØSHIVA
 
 All Rights Reserved.
 
